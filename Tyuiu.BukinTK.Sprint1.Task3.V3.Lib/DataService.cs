@@ -7,7 +7,7 @@ namespace Tyuiu.BukinTK.Sprint1.Task3.V3.Lib
         public double ParallelepipedVolume(double length, double width, double height)
         {
             double res = length * width * height;
-            Math.Round(res, 3);
+            res = Math.Round(res, 3);
             return res;
         }
     }
